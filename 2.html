@@ -6,7 +6,54 @@
 </head>
 
 <body>
+
+<script>
+var hello =["1","2","3"];
+document.write(hello.length);
+</script>
+
 <h1 style="color: red">역겨운 한국 커뮤니티</h1>
+
+<input  name = "fuck_you" type="text" value="type secret text" onclick="
+  var bodytarget = document.querySelector('body');
+  var cl = document.getElementsByTagName('li')[1];
+    if(this.value=== 'fuck_you'
+  ){
+      bodytarget.style.backgroundColor ='red';
+      bodytarget.style.color ='red';
+
+      cl.style.color = 'red';
+
+      this.value = 'fuck_you';
+}
+    ">
+
+<input  type="button" value="night" onclick="
+  var bodytarget = document.querySelector('body');
+  var cl = document.getElementsByTagName('li')[1];
+    if(this.value=== 'night'
+  ){
+      bodytarget.style.backgroundColor ='black';
+      bodytarget.style.color ='powderblue';
+
+      cl.style.color = 'red';
+
+      this.value = 'day';
+    }
+    else{
+      bodytarget.style.backgroundColor ='white';
+      bodytarget.style.color ='black';
+
+      cl.style.color = 'blue';
+
+      this.value = 'night';
+
+    }
+    ">
+
+
+
+
 <ol>
   <li><a href="1.html">에펨코리아</a></li>
   <li><a href="2.html">디시인사이드</a></li>
@@ -15,6 +62,7 @@
   <li><a href="5.html">일간베스트저장소</a></li>
 </ol>
 
+
 <u><h2>디시인사이드</h2></u>
 
 <h3 style="color:DodgerBlue"><u style="color:rgb(170,55,55);">혐오</u>의 고수들</h3>
@@ -22,13 +70,16 @@
 
 <p>항상 화나있고 무언가를 물어뜯을 준비를 하고있다. 그들에게는 실수라는 일은 없다.</p>
 
-<img src="chemi.gif" width="50%;">
-
+<a id='pic' href="https://gall.dcinside.com/mgallery/board/lists?id=sunshine"><img src="chemi.gif" width="50%;"></a>
+<br><br>
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/gWekHezM0Hw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></p>
 <p style="margin-top:60px;">자신의 의견과 다른의견이 나온다면 비추부터 박고 보는 <strong>비열한 <u>족속</u></strong>들이다.</p >
 그들은 유머글이건 정치글이건 미스터리글이건 상관하지 않고 모든글에 비추를 누를 준비가 되어있으며,
 누구에게든 짜증을 낼 준비가 되어있다.
-  
-  <div id="disqus_thread"></div>
+<p><a href="checkbox.html">checkbox</a></p>
+
+
+<div id="disqus_thread"></div>
 <script>
 
 /**
@@ -48,8 +99,10 @@ s.setAttribute('data-timestamp', +new Date());
 })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                            
+             
 
-<p><a href="https://gall.dcinside.com/mgallery/board/lists?id=sunshine" target="_blank" title="이꾸욧">럽갤로</a></p>
+
+
+
 </body>
 </html>
