@@ -18,6 +18,7 @@ function setColor(color){
   while(i < alist.length){
   alist[i].style.color= color;
   i = i + 1;
+    
     }
 }
 
@@ -57,6 +58,8 @@ function valueChange(fucking){
     fucking.value = document.querySelector('#fick').value;
 
      f = f + 1
+    
+    document.querySelector('#hi').value = "type secret text";
   }
 }
 
@@ -67,7 +70,7 @@ function valueChange(fucking){
 
 <h1 style="color: red">역겨운 한국 커뮤니티</h1>
 
-<input  name = "fuck_you" type="text" value="type secret text" onclick="
+<input  id = "hi" name = "fuck_you" type="text" value="type secret text" onclick="
   var bodytarget = document.querySelector('body');
   var cl = document.getElementsByTagName('li')[1];
     if(this.value=== 'fuck_you'
